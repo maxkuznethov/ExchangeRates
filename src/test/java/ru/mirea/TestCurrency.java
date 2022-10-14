@@ -49,8 +49,8 @@ public class TestCurrency extends TestCase {
     @Test
     public  void testCalculatePrediction(){
         List<Double> list = Arrays.asList(3.2, 2.8, 4.5);
-        List<Double> result = Arrays.asList(3.2, 2.8, 4.5, 5.15, 5.8);
-        assertEquals(result, Prediction.calculatePrediction(list,2));
+        List<Double> result = Arrays.asList(5.15, 5.8, 6.45, 7.1);
+        assertEquals(result, Prediction.calculatePrediction(list,4));
     }
 
 }
