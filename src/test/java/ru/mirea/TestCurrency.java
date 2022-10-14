@@ -12,9 +12,14 @@ public class TestCurrency extends TestCase {
     @Test
     public void testJsonConverter(){
         Map<String, Object> map = new HashMap<String, Object>();
-        map.put("123", 123);
+        map.put("123", 123.0);
         String json = "{\"123\":123}";
         assertEquals(map, Converter.toMap(json));
+    }
+
+    @Test
+    public void testParseAPI() {
+        assertTrue((Boolean) Currency.parseAPI(TEST_REQUEST).get("success"));
     }
 
 }
