@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add libraries and class structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" afterDir="false" />
+    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add parse api test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665751654599</updated>
-      <workItem from="1665751657468" duration="2661000" />
+      <workItem from="1665751657468" duration="4561000" />
     </task>
     <task id="LOCAL-00001" summary="add main class">
       <created>1665752047370</created>
@@ -108,7 +107,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665753974837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add json converter test">
+      <created>1665755538842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665755538842</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add json converter">
+      <created>1665755698462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665755698462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add parse api test">
+      <created>1665755800916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665755800916</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add parse api test">
+      <created>1665755806733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665755806733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +155,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add main class" />
     <MESSAGE value="add libraries and class structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add libraries and class structure" />
+    <MESSAGE value="add json converter test" />
+    <MESSAGE value="add json converter" />
+    <MESSAGE value="add parse api test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parse api test" />
   </component>
 </project>
