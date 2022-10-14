@@ -46,4 +46,11 @@ public class TestCurrency extends TestCase {
         assertTrue(Math.abs(0.65-Prediction.calculateAvg(list))<=0.00001);
     }
 
+    @Test
+    public  void testCalculatePrediction(){
+        List<Double> list = Arrays.asList(3.2, 2.8, 4.5);
+        List<Double> result = Arrays.asList(3.2, 2.8, 4.5, 5.15, 5.8);
+        assertEquals(result, Prediction.calculatePrediction(list,2));
+    }
+
 }

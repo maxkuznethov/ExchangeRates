@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add get currency">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add calculate avg test">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Prediction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Prediction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestCurrency.testCalculateAvg">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.Main" />
       <module name="exchangerates" />
@@ -53,6 +51,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCurrency.testCalculateAvg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exchangerates" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mirea" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.TestCurrency" />
+      <option name="METHOD_NAME" value="testCalculateAvg" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,22 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCurrency.testJsonConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exchangerates" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.mirea" />
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.TestCurrency" />
-      <option name="METHOD_NAME" value="testJsonConverter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestCurrency.testParseAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exchangerates" />
       <extension name="coverage">
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCurrency.testCalculateAvg" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestCurrency.testGetCurrencyRate" />
         <item itemvalue="JUnit.TestCurrency.testGetCurrencyRate2" />
         <item itemvalue="JUnit.TestCurrency.testParseAPI" />
-        <item itemvalue="JUnit.TestCurrency.testJsonConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665751654599</updated>
       <workItem from="1665751657468" duration="9375000" />
-      <workItem from="1665767624664" duration="537000" />
+      <workItem from="1665767624664" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="add main class">
       <created>1665752047370</created>
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665764711843</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add calculate avg test">
+      <created>1665768358869</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665768358869</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +252,7 @@
     <MESSAGE value="add get currency test" />
     <MESSAGE value="fix get currency test" />
     <MESSAGE value="add get currency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add get currency" />
+    <MESSAGE value="add calculate avg test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calculate avg test" />
   </component>
 </project>
