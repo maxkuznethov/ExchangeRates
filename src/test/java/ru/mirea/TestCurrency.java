@@ -28,7 +28,13 @@ public class TestCurrency extends TestCase {
         String json = "{\"success\": true, \"quotes\": {\"2016-02-25\": {\"RUBUSD\": 0.013228}}}";
         Map<String, Object> map = new HashMap<>();
         map.put("2016-02-25", 0.013228);
-        assertEquals(map,Currency.getCurrencyRate(Converter.toMap(json)));
+        assertEquals(map,Currency.getCurrencyRate(Converter.toMap(json), "rub", "usd"));
+    }
+
+    @Test
+    public void testGetCurrencyRate2(){
+        String json = "{\"success\": false, \"quotes\": {\"2016-02-25\": {\"RUBUSD\": 0.013228}}}";
+        assertNull(Currency.getCurrencyRate(Converter.toMap(json), "rub", "usd"));
 
     }
 
