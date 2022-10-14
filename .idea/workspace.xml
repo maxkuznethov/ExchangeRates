@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add parse api test">
+    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="refactor parse api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" afterDir="false" />
@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665751654599</updated>
-      <workItem from="1665751657468" duration="4561000" />
+      <workItem from="1665751657468" duration="6961000" />
     </task>
     <task id="LOCAL-00001" summary="add main class">
       <created>1665752047370</created>
@@ -135,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665755806733</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add parse api">
+      <created>1665757443775</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665757443775</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor parse api">
+      <created>1665758230328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665758230328</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +172,8 @@
     <MESSAGE value="add json converter test" />
     <MESSAGE value="add json converter" />
     <MESSAGE value="add parse api test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add parse api test" />
+    <MESSAGE value="add parse api" />
+    <MESSAGE value="refactor parse api" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor parse api" />
   </component>
 </project>
