@@ -16,10 +16,9 @@ public class Main {
                 startDate, endDate, cur1, cur2);
         Map<String, Double> currencyRate = Currency.getCurrencyRate(Currency.parseAPI(request), cur2, cur1);
         if (currencyRate != null) {
-            Map<String, Double> sortedCurrency= new TreeMap<>(currencyRate);
             List<Double> currencyRateList = new ArrayList<>();
             System.out.println("История курса:");
-            sortedCurrency.forEach((k, v) -> {
+            currencyRate.forEach((k, v) -> {
                 System.out.println(k + " : " + v);
                 currencyRateList.add(v);
             });
@@ -29,7 +28,6 @@ public class Main {
             for (int i = 0; i < predictionList.size(); i++) {
                 System.out.println(endDate.plusDays(i+1)+" : "+predictionList.get(i));
             }
-
         }
         else {
             System.out.println("Некоректные данные");

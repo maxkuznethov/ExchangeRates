@@ -3,11 +3,11 @@ package ru.mirea;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Currency {
 
@@ -28,7 +28,7 @@ public class Currency {
         Map<String, Map<String, Double>> quotes= (Map<String, Map<String, Double>>) map.get("quotes");
         Map<String, Double> currencyRate = new HashMap<>();
         quotes.forEach((k,v)-> currencyRate.put(k, v.get(rateKey)));
-        return currencyRate;
+        return new TreeMap<>(currencyRate);
 
     }
 }
