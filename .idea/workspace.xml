@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add main class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Prediction.java" afterDir="false" />
+    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add libraries and class structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,29 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestCurrency.testJsonConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exchangerates" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mirea" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.TestCurrency" />
+      <option name="METHOD_NAME" value="testJsonConverter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCurrency.testJsonConverter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665751654599</updated>
-      <workItem from="1665751657468" duration="1083000" />
+      <workItem from="1665751657468" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="add main class">
       <created>1665752047370</created>
@@ -60,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665752047370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add libraries and class structure">
+      <created>1665753974837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665753974837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main class" />
+    <MESSAGE value="add libraries and class structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add libraries and class structure" />
   </component>
 </project>
