@@ -4,7 +4,9 @@ import junit.framework.TestCase;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class TestCurrency extends TestCase {
@@ -36,6 +38,12 @@ public class TestCurrency extends TestCase {
         String json = "{\"success\": false, \"quotes\": {\"2016-02-25\": {\"RUBUSD\": 0.013228}}}";
         assertNull(Currency.getCurrencyRate(Converter.toMap(json), "rub", "usd"));
 
+    }
+
+    @Test
+    public void testCalculateAvg(){
+        List<Double> list = Arrays.asList(3.2, 2.8, 4.5);
+        assertTrue(Math.abs(0.65-Prediction.calculateAvg(list))<=0.00001);
     }
 
 }
