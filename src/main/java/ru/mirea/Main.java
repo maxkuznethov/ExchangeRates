@@ -5,6 +5,12 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class Main {
+
+    /**
+     * Выводит всю информацию о курсе двух валют, а также прогноз будущего курса
+     *
+     * @param args аргументы командной строки
+     */
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите валюты");

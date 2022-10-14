@@ -11,6 +11,12 @@ import java.util.TreeMap;
 
 public class Currency {
 
+    /**
+     * Получает данные с API
+     *
+     * @param request GET запрос
+     * @return ответ с API
+     */
     public static Map<String, Object> parseAPI(String request) throws IOException {
         StringBuilder result = new StringBuilder();
         URLConnection connection = new URL(request).openConnection();
@@ -22,6 +28,14 @@ public class Currency {
         return Converter.toMap(result.toString());
     }
 
+    /**
+     * Получает данные о курсе
+     *
+     * @param map ответ с API
+     * @param currency1 первая валюта
+     * @param currency2 вторая валюта
+     * @return курс первой валюты ко второй
+     */
     public static Map<String, Double> getCurrencyRate(Map<String, Object> map, String currency1, String currency2){
         if(!(Boolean) map.get("success")) return null;
         String rateKey = currency1.toUpperCase()+currency2.toUpperCase();
