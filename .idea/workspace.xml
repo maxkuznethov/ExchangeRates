@@ -44,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestCurrency.testParseAPI">
     <configuration name="TestCurrency.testJsonConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exchangerates" />
       <extension name="coverage">
@@ -61,8 +61,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCurrency.testParseAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exchangerates" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mirea" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.TestCurrency" />
+      <option name="METHOD_NAME" value="testParseAPI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCurrency.testParseAPI" />
         <item itemvalue="JUnit.TestCurrency.testJsonConverter" />
       </list>
     </recent_temporary>
