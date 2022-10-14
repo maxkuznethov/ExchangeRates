@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="add get currency test">
+    <list default="true" id="e879e4c8-5354-4563-99df-d80d1d8322d7" name="Changes" comment="fix get currency test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mirea/TestCurrency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,52 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestCurrency.testParseAPI">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.Main" />
+      <module name="exchangerates" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCurrency.testGetCurrencyRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exchangerates" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mirea" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.TestCurrency" />
+      <option name="METHOD_NAME" value="testGetCurrencyRate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCurrency.testGetCurrencyRate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exchangerates" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.mirea" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.TestCurrency" />
+      <option name="METHOD_NAME" value="testGetCurrencyRate2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCurrency.testJsonConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exchangerates" />
       <extension name="coverage">
@@ -77,6 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestCurrency.testGetCurrencyRate" />
+        <item itemvalue="JUnit.TestCurrency.testGetCurrencyRate2" />
         <item itemvalue="JUnit.TestCurrency.testParseAPI" />
         <item itemvalue="JUnit.TestCurrency.testJsonConverter" />
       </list>
@@ -90,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665751654599</updated>
-      <workItem from="1665751657468" duration="7563000" />
+      <workItem from="1665751657468" duration="9322000" />
     </task>
     <task id="LOCAL-00001" summary="add main class">
       <created>1665752047370</created>
@@ -155,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665762350512</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix get currency test">
+      <created>1665762711105</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665762711105</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +236,7 @@
     <MESSAGE value="add parse api" />
     <MESSAGE value="refactor parse api" />
     <MESSAGE value="add get currency test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add get currency test" />
+    <MESSAGE value="fix get currency test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix get currency test" />
   </component>
 </project>

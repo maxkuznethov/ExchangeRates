@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.HashMap;
 import java.util.Map;
 
 public class Currency {
@@ -19,5 +20,15 @@ public class Currency {
             }
         }
         return Converter.toMap(result.toString());
+    }
+
+    public static Map<String, Double> getCurrencyRate(Map<String, Object> map, String currency1, String currency2){
+        if(!(Boolean) map.get("success")) return null;
+        String rateKey = currency1.toUpperCase()+currency2.toUpperCase();
+        Map<String, Map<String, Double>> quotes= (Map<String, Map<String, Double>>) map.get("quotes");
+        Map<String, Double> currencyRate = new HashMap<>();
+        quotes.forEach((k,v)-> currencyRate.put(k, v.get(rateKey)));
+        return currencyRate;
+
     }
 }
